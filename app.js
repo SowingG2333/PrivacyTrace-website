@@ -12,11 +12,6 @@
     document.querySelectorAll('[data-dataset]').forEach(link => { link.href = config.dataset; });
   }
   if (config.paper) {
-    const holder = document.getElementById('paper-status');
-    const link = document.createElement('a');
-    link.href = config.paper;
-    link.className = 'external-link button is-normal is-rounded is-dark';
-    link.append(...holder.querySelector('.button').childNodes);
-    holder.replaceChildren(link);
+    document.querySelectorAll('[data-paper]').forEach(link => { link.href = config.paper; });
   }
 })();

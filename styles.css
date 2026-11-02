@@ -19,4 +19,3 @@ a:focus-visible { outline: 2px solid #209cee; outline-offset: 3px; }
 .paper-figure figcaption { margin-top: 0.75rem; font-size: 0.9rem; line-height: 1.5; }
 .content a { overflow-wrap: anywhere; }
 
-.paper-placeholder { margin-top: 5px; margin-bottom: 5px; cursor: default; }
